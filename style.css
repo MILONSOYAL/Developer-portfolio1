@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins',
         sans-serif;
+    margin: 0px;
 }
 
 .color-name {
@@ -38,5 +39,5 @@ section {
 .top-banner {
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
-    margin: 0%;
+
 }
