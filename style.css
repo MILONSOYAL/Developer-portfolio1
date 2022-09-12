@@ -12,7 +12,11 @@ h1 {
     font-size: 50px;
 }
 
-section {
+h2 {
+    font-size: 40px;
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 2%;
 }
@@ -20,12 +24,14 @@ section {
 .half-width {
     width: 50%;
     padding-left: 5%;
-}
-
-.half-width {
-    width: 50%;
     padding-right: 7%;
     padding-bottom: 10%;
+    margin-top: 5%;
+
+}
+
+.half-width image {
+    width: 80%;
 }
 
 .link-button {
@@ -47,4 +53,27 @@ section {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 15px 15px 40px grey;
+    border-left: 7px solid blue;
+}
+
+#Full-strack-developer {
+    margin-left: 5%;
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
